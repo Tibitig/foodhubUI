@@ -1,0 +1,51 @@
+ion-header {
+
+  ion-toolbar {
+    --min-height: 130px;
+
+    ion-title {
+      align-items: flex-end;
+      img {
+        width: 50px;
+        height: 50px;
+        vertical-align: middle;
+        //margin-right: 10px;
+        border-radius: 8px;
+      }
+
+      ion-button {
+        display: flex;
+        vertical-align: middle;
+      }
+
+      ion-button:hover {
+        background-color: transparent;
+      }
+    }
+
+  }
+}
+
+ion-content {
+  .profile-background {
+    .profile {
+      .avatar {
+        width: 90px;
+        margin: 16px auto;
+        display: block;
+      }
+    }
+  }
+  div {
+    span {
+      font-size: 10px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      display: block;
+      strong {
+        font-size: 6px;
+        font-weight: lighter;
+      }
+    }
+
+  }
+}
